@@ -1,0 +1,120 @@
+@import url("https://codedotspectra.github.io/themes/mini-themes/hljs.css");
+@import url("https://codedotspectra.github.io/themes/mini-themes/compactMemberList.css");
+@import url("https://codedotspectra.github.io/themes/mini-themes/compactChannelsList.css");
+
+:root {
+  --backgroundCode: #2f3136;
+  --backgroundName: #202225;
+  --background-url: url("https://cdn.discordapp.com/attachments/540689755596128276/705347895640981594/red_tree_gray_black.jpg");
+  --accent: #f04747;
+}
+
+div[class="wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica"] {
+  display: none;
+}
+
+button[aria-label="Send a gift"],
+button[aria-label="Open GIF picker"]
+{
+    display: none;
+}
+
+.theme-dark {
+  background: var(--background-url);
+  background-size: cover;
+  --header-primary: var(--accent);
+  --text-link: var(--accent);
+  --channels-default: var(--accent);
+  --background-primary: transparent;
+  --background-secondary: #00000050;
+  --background-secondary-alt: #00000050;
+  --background-tertiary: #00000050;
+  --background-modifier-hover: #f0474738;
+  --background-modifier-active: var(--accent);
+  --background-modifier-selected: var(--accent);
+  --channeltextarea-background: transparent;
+  --textbox-markdown-syntax: var(--accent);
+}
+
+/*[class*="username"] {
+  animation: rainbow 10s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}*/
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+@keyframes glow {
+  0% {
+		box-shadow: 0 0 var(--accent);
+	}
+	100% {
+		box-shadow: 0 0 10px 8px transparent;
+		border-width: 2px;
+	}
+}
+
+[class*="homeIcon"] {
+  color: var(--accent);
+  border-radius: 50%;
+  animation: glow 2s ease infinite;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-color: #ffffff00;
+}
+
+.mentioned-xhSam7 {
+  background-color: #f0474738;
+}
+
+.mentioned-xhSam7:before {
+  background-color: var(--accent);
+}
+
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
+  background: #f0474799;
+}
+
+.theme-dark .headerNormal-T_seeN {
+  background: #f0474799;
+}
+
+.headerSpotify-zpWxgT {
+  background: #f0474799;
+}
+
+.role-2irmRk {
+  border-radius: 0px;
+}
+
+.hljs.sh::before {
+  content: "Shell";
+}
+
+.hljs.prolog::before {
+  content: "Prolog";
+}
+
+.hljs.ini::before {
+  content: "INI"
+}
+
