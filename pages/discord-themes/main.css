@@ -77,6 +77,10 @@ button[aria-label="Open GIF picker"]
   animation: glow 2s ease infinite;
 }
 
+.theme-dark .container-1D34oG {
+  color: transparent;
+}
+
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
   background-color: var(--accent);
   border-color: #ffffff00;
